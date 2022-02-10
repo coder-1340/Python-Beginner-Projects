@@ -19,6 +19,7 @@ def ask_questions(question_dict, answer_dict):
 
     time.sleep(2)
     print(f"\nScore: {score}/10 are correct")
+    print(f"Total Percentage: {score // 10 * 100}%
 
 
 questions = {
